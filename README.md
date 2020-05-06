@@ -13,3 +13,4 @@ Just by five steps， then you can run：
 4. roslaunch vins_estimator euroc.launch
 5. roslaunch vins_estimator vins_rviz.launch
 
+However, there are some problems while running. It might running against normal trajectory. The main reason is that the simulating environment has many walls and little good features in MONO camera. I think the more good features there are, the higher quality it will have, so you can try altering the environment.
