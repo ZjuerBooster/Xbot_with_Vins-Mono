@@ -1,9 +1,11 @@
 # Xbot_with_Vins-Mono-
-Xbot is a good open-source robot package， it has many state-of-the-art algorithms about SLAM and Navigation. 
+Xbot is a good open-source robot package, it has many state-of-the-art algorithms about SLAM and Navigation. 
+
 Simtaneously，Vins-Mono is also a good open-source Mono-SLAM project，out of interest，I integrate them by replacing original SLAM algorithm
 of Xbot with vins-mono.
 
 Just by five steps， then you can run：
+
 0. Git clone vins-mono, and cmake.
 1. replace the original one of vins-mono with given euroc_config.yaml， it has configured parameters about extrinsic and intrinsic parameters.
 2. roslaunch robot_sim_demo robot_spawn.launch
