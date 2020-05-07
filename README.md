@@ -1,7 +1,7 @@
 # Xbot_with_Vins-Mono
 Xbot is a good open-source robot package, it has many state-of-the-art algorithms about SLAM and Navigation. 
 
-Simtaneously，Vins-Mono is also a good open-source Mono-SLAM project，out of interest，I integrate them by replacing original SLAM algorithm
+Simtaneously，Vins-Mono is also a good open-source MONO-SLAM project，out of interest，I integrate them by replacing original SLAM algorithm
 of Xbot with vins-mono.
 
 Just by five steps， then you can run：
